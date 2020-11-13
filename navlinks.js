@@ -6,7 +6,7 @@ $(".navimg").hover(function() {
 
 $(".navitem").click(function(){
     //Set Container
-    container = $('#content');
+    container = $('.content');
     // Set $this for re-use. Set target from data attribute
     $this = $(this),
     target = $(this).find("a").data("target");    

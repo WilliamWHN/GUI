@@ -1,3 +1,7 @@
+<div class="title">
+    <span>launcher</span>
+    <span>quests</span>
+</div>
 <div>
-    <h1>Myquests</hi>
+    
 </div>

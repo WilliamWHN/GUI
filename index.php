@@ -11,7 +11,7 @@
         <div class="navitem"><a href="#" data-target="myquests"></a><img class="navimg" src="content/images/encyclopedia.png"></div>
         <div class="navitem loginitem" data-target="login"><a href="#"></a><img class="navimg" src="content/images/knight.png"></div>
     </div>
-    <div id="content">
+    <div class="content">
         <?php include('./view/home.php');?>
     </div>
 </body>
