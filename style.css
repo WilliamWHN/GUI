@@ -1,3 +1,8 @@
+:root {
+    --cardMargin: 16px;
+    --cardWidth: 370px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -15,13 +20,6 @@
          url('content/polices/gameshow/Gameshow.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-/*MEDIA SECTION*/
-
-@media only screen and (min-width: 1921px) {
-    .navitem img{
-        width: 55%;
-    }
-}
 
 /*NAVBAR SECTION*/ 
 body{
@@ -34,12 +32,12 @@ body{
 .navbar{
     display: flex;
     flex-direction: column;
-    background-image: url("content/images/Illustration_sans_titre.png");
+    background-color: #00340F;
     background-size: cover;
     background-repeat: repeat-y;
     top: 0;
     left: 0;
-    width: 8%;
+    width: 130px;
     height: 100%;
 }
 
@@ -70,7 +68,7 @@ body{
 .title span:first-child{
     display: flex;
     font-family: 'GameShow', Arial, sans-serif;
-    font-size: 3vw; 
+    font-size: 60px; 
     color: #00340F;
     line-height: 0.75;
 }
@@ -78,10 +76,21 @@ body{
 .title span:last-child{
     display: flex;
     font-family: 'GameShow', Arial, sans-serif;
-    font-size: 3vw; 
+    font-size: 60px; 
     color: yellow;
     margin-bottom: 1.5%;
     line-height: 0.75;
+}
+
+.boxtitle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.boxtitle span{
+    margin-top: 2px;
+    margin-left: 10px;
 }
 
 /*CONTENT SECTION*/
@@ -90,17 +99,72 @@ body{
     margin-top: 1%;
     margin-left: 2%;
     margin-right: 2%;
-    width: 100%;
-    height: auto;
+    width: 100%
+    
 }
-.section{
+.box {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
     padding: 10px;
+    width: 100%;
     border-radius: 5px 5px 2px 2px;
-    font-size: 1vw;
     color: white;
     background-color: #292929;
     padding: 1%;
-    width: 100%;
     height: auto;
 }
+
+.boxcontent p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: var(--cardMargin);
+    width: var(--cardWidth);
+    height: auto;
+    border-radius: 8px;
+    padding: 10px;
+    color: #292929;
+    background: #2D6D33;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.card p{
+    color: white;
+    margin-top: 15px;
+    line-height: 1.3em;
+}
+
+/*IMAGE SECTION*/
+.warning{
+    width: 25px;
+    height: auto;
+}
+
+.card img{
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 7px;
+}
+
+.infobutton{
+    width: 30px !important;
+    float: right;
+    margin-top: auto;
+}
+
+
