@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    background-image: url("content/images/background-texture.png");
+    background-repeat: repeat;
+    background-color: #3D4424;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-image: url("content/images/Illustration_sans_titre.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+    top: 0;
+    left: 0;
+    width: 8%;
+    height: 100%;
+}
+
+.navitem{
+    display: flex;
+    width: 100%;
+    padding-top: 20%;
+    height: auto;
+}
+
+.navitem img{
+    width: 75%;
+    margin: auto;
+}
+
+.loginitem{
+    margin-top: auto;
+    margin-bottom: 10%;
+}
+
+@media only screen and (min-width: 1921px) {
+    .navitem img{
+        width: 55%;
+    }
+}
