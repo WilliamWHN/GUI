@@ -5,6 +5,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+@font-face {
+    font-family: 'GameShow';
+    src: url('content/polices/gameshow/Gameshow.eot'); /* IE9 Compat Modes */
+    src: url('content/polices/gameshow/Gameshow.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('content/polices/gameshow/Gameshow.woff') format('woff'), /* Modern Browsers */
+         url('content/polices/gameshow/Gameshow.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('content/polices/gameshow/Gameshow.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*For the template*/ 
 body{
     display: flex;
     background-image: url("content/images/background-texture.png");
@@ -22,6 +33,15 @@ body{
     left: 0;
     width: 8%;
     height: 100%;
+}
+
+.title{
+    display: flex;
+    font-family: 'GameShow', Arial, sans-serif;
+    font-size: 3vw; 
+    color: green;
+    margin: 4%;
+    line-height: 0.75;
 }
 
 .navitem{
@@ -46,3 +66,5 @@ body{
         width: 55%;
     }
 }
+
+/*For the tit*/ 

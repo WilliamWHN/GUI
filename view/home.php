@@ -1,3 +1,1 @@
-<div>
-    <h1>Home</hi>
-</div>
+<span class="title">launcher</br>quests</span>
