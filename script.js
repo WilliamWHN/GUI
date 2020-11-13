@@ -10,21 +10,9 @@ $(document).ready(function(){
         target = $this.data('target');       
       
       // Load target page into container
-      container.load(target + '.php');
+      container.load('./view/' + target + '.php');
       
       // Stop normal link behavior
       return false;
     });
   });
-
-$(".navimg").hover(function() {
-    $(this).css('cursor','pointer');
-}, function() {
-    $(this).css('cursor','auto');
-});
-
-
-$(".navitem").click(function(){
-    window.location=$(this).find("a").attr("href");
-    return false;
-});
