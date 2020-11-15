@@ -15,8 +15,8 @@
 </div>
 <div class="box">
     <div class="buttons">
-        <a href="#" class="button_selected">En cours</a>
-        <a href="#" class="button">Terminées</a>
+        <a href="" class="button_selected">En cours</a>
+        <a href="" class="button">Terminées</a>
     </div>
     <table>
         <thead>
