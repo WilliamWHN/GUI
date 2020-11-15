@@ -8,7 +8,9 @@ $(document).ready(function(){
       // Set $this for re-use. Set target from data attribute
       var $this = $(this),
         target = $this.data('target');       
-      
+      if(target == "login"){
+        
+      }
       // Load target page into container
       container.load('./view/' + target + '.php');
       
