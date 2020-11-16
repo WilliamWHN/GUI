@@ -206,6 +206,13 @@ a {
     overflow-y: scroll;
 }
 
+.menu-image{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
 .box {
     display: flex;
     flex-direction: column;
@@ -311,6 +318,12 @@ a {
     background-color: black;
     opacity: 90%;
     z-index: 100;
+}
+
+.bg-image{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
 .login-page {

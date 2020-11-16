@@ -1,3 +1,6 @@
+<div class="menu-image">
+    <img class="bg-image" src="./content/images/DofusLogo.png">
+</div>
 <div class="title">
     <span>launcher</span>
     <span>quests</span>
